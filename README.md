@@ -75,13 +75,13 @@ curl -X POST http://localhost:8080/api/posts \
   -d '{"title":"Hello","content":"First post"}'
 ```
 
-List posts:
+获取帖子列表:
 
 ```bash
 curl http://localhost:8080/api/posts
 ```
 
-Create comment (replace TOKEN):
+新增评论 (replace TOKEN):
 
 ```bash
 curl -X POST http://localhost:8080/api/posts/1/comments \
